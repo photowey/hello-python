@@ -1,0 +1,19 @@
+# -*- coding:utf-8 -*-
+
+# ---------------------------------------------
+# @file test_yml.yml
+# @description test_yml.yml
+# @author photowey
+# @date 2022/06/06
+# ---------------------------------------------
+
+- name: 'test read yml'
+  request:
+    url: 'https://www.baidu.com'
+    method: 'GET'
+    headers:
+      - content-type: 'application/html'
+    parameters:
+      grant_type: 'client_credential'
+      app-id: 'your.appId'
+      app-secret: 'your.appSecret'

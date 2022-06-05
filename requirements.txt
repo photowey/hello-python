@@ -1,0 +1,11 @@
+pytest~=6.2.4
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+allure-pytest
+PyYAML~=6.0
+requests~=2.27.1
+urllib3~=1.26.9
+pandas~=1.4.2
+requests_mock~=1.9.3
